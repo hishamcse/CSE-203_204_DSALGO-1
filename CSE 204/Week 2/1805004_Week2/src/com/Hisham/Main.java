@@ -32,25 +32,15 @@ public class Main {
             }
             int flag = 0;
             switch (strings[1]) {
-                case "M":
-                    game.stop_music(time);
-                    break;
-                case "R":
-                    game.toggleDirection(time);
-                    break;
-                case "I":
-                    game.add_player(time, Integer.parseInt(strings[2]));
-                    break;
-                case "P":
-                    game.print_Current_Player(time);
-                    break;
-                case "F":
+                case "M" -> game.stop_music(time);
+                case "R" -> game.toggleDirection(time);
+                case "I" -> game.add_player(time, Integer.parseInt(strings[2]));
+                case "P" -> game.print_Current_Player(time);
+                case "F" -> {
                     game.finish(time);
                     flag = 1;
-                    break;
-                default:
-                    System.err.println("Warning!! Invalid Operation Requested");
-                    break;
+                }
+                default -> System.err.println("Warning!! Invalid Operation Requested");
             }
             if (flag == 1) break;
             prevTime = time;
