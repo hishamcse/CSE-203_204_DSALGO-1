@@ -13,21 +13,13 @@ public class MathEvaluator {
     }
 
     private int get_precedence(String s) {          // returns precedence as integer value
-        switch (s) {
-            case "(":
-            case ")":
-                return 0;
-            case "+":
-            case "-":
-                return 1;
-            case "*":
-            case "/":
-                return 2;
-            case "~":
-                return 3;               // unary minus
-            default:
-                return -1;              // not an operator. actually a value
-        }
+        return switch (s) {
+            case "(", ")" -> 0;
+            case "+", "-" -> 1;
+            case "*", "/" -> 2;
+            case "~" -> 3;         // unary minus
+            default -> -1;         // not an operator. actually a value
+        };
     }
 
     public static double getValue_By_Operation(String operator, double value1, double value2) {
