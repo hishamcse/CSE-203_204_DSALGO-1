@@ -1,0 +1,91 @@
+Generating result for Ascending Order Numbers:
+
+for n = 10, Time spent to accomplish merge sort: 0.0 ms
+for n = 10, Time spent to accomplish Quick sort: 0.0 ms
+
+Generating result for Descending Order Numbers:
+
+for n = 10, Time spent to accomplish merge sort: 0.0 ms
+for n = 10, Time spent to accomplish Quick sort: 0.0 ms
+
+Generating result for Random Order Numbers:
+
+for n = 10, Time spent to accomplish merge sort: 0.0 ms
+for n = 10, Time spent to accomplish Quick sort: 0.0 ms
+
+Generating result for Ascending Order Numbers:
+
+for n = 100, Time spent to accomplish merge sort: 0.0 ms
+for n = 100, Time spent to accomplish Quick sort: 0.1 ms
+
+Generating result for Descending Order Numbers:
+
+for n = 100, Time spent to accomplish merge sort: 0.0 ms
+for n = 100, Time spent to accomplish Quick sort: 0.1 ms
+
+Generating result for Random Order Numbers:
+
+for n = 100, Time spent to accomplish merge sort: 0.0 ms
+for n = 100, Time spent to accomplish Quick sort: 0.1 ms
+
+Generating result for Ascending Order Numbers:
+
+for n = 1000, Time spent to accomplish merge sort: 0.1 ms
+for n = 1000, Time spent to accomplish Quick sort: 0.8 ms
+
+Generating result for Descending Order Numbers:
+
+for n = 1000, Time spent to accomplish merge sort: 0.1 ms
+for n = 1000, Time spent to accomplish Quick sort: 0.8 ms
+
+Generating result for Random Order Numbers:
+
+for n = 1000, Time spent to accomplish merge sort: 0.1 ms
+for n = 1000, Time spent to accomplish Quick sort: 0.7 ms
+
+Generating result for Ascending Order Numbers:
+
+for n = 10000, Time spent to accomplish merge sort: 0.5 ms
+for n = 10000, Time spent to accomplish Quick sort: 16.2 ms
+
+Generating result for Descending Order Numbers:
+
+for n = 10000, Time spent to accomplish merge sort: 0.4 ms
+for n = 10000, Time spent to accomplish Quick sort: 19.0 ms
+
+Generating result for Random Order Numbers:
+
+for n = 10000, Time spent to accomplish merge sort: 0.4 ms
+for n = 10000, Time spent to accomplish Quick sort: 3 ms
+
+Generating result for Ascending Order Numbers:
+
+for n = 100000, Time spent to accomplish merge sort: 3.8 ms
+for n = 100000, Time spent to accomplish Quick sort: 1770.1 ms
+
+Generating result for Descending Order Numbers:
+
+for n = 100000, Time spent to accomplish merge sort: 3.9 ms
+for n = 100000, Time spent to accomplish Quick sort: 1809.9 ms
+
+Generating result for Random Order Numbers:
+
+for n = 100000, Time spent to accomplish merge sort: 4.5 ms
+for n = 100000, Time spent to accomplish Quick sort: 21 ms
+
+Generating result for Ascending Order Numbers:
+
+for n = 1000000, Time spent to accomplish merge sort: 46.5 ms
+for n = 1000000, Time spent to accomplish Quick sort: 178249.4 ms
+
+Generating result for Descending Order Numbers:
+
+for n = 1000000, Time spent to accomplish merge sort: 46.9 ms
+for n = 1000000, Time spent to accomplish Quick sort: 184963.4 ms
+
+Generating result for Random Order Numbers:
+
+for n = 1000000, Time spent to accomplish merge sort: 55.2 ms
+for n = 1000000, Time spent to accomplish Quick sort: 130ms
+
+Process finished with exit code 0
